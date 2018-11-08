@@ -16,8 +16,9 @@
       <% if (theme.menu) { %>
         <% _.forEach(theme.menu, function(value, key) {
           value = value.path || value;
-          if (value) { %>
-            <a href="<%= value %>" class="nav-menu <%= is_current(value) ? 'z-active' : '' %>"><%= key.toUpperCase() %></a>
+          var url = value.replace(theme.menu.root, '');
+          if (key !== 'root') { %>
+            <a href="<%= value %>" class="nav-menu <%= is_current(url) ? 'z-active' : '' %>"><%= key.toUpperCase() %></a>
           <% } %>
         <% }); %>
       <% } %>

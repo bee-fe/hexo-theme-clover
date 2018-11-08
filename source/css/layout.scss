@@ -1,11 +1,11 @@
 #container {
+  margin: 20px auto;
   max-width: 980px;
-  margin: 90px auto 75px;
-  padding: 0 15px;
-  @media screen and (max-width: 600px){
-    margin-top: 20px;
-    margin-bottom: 20px;
-  }
+  height: calc(100% - 40px);
+}
+
+#main{
+  min-height: calc(100vh - 40px - 253px);
 }
 
 #panel {

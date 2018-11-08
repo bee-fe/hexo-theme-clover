@@ -1,6 +1,6 @@
 # Custom nav
 nav:
-  title: "Clover Tuan"
+  title: 小蜜蜂前端周刊
 
 favicon: ""
 
@@ -11,29 +11,21 @@ background:
 
 # Social media
 social:
-  Dribbble: https://dribbble.com/clovertuan
-  Behance: https://www.behance.net/clovertuan
-  Lofter: http://clovertuan.lofter.com/
-  Instagram: https://www.instagram.com/clovertuan/
-  GitHub: https://github.com/cloverTuan
+  GitHub: https://github.com/bee-fe/FE-Weekly
 
 # Custom footer
-mail: d.guangying@foxmail.com
-copyright: All rights reserved @Clover Tuan
+mail: grant_ge@126.com
+copyright: All rights reserved @bee-fe
 
 # Custom menu. You can specific the path or the card style (only useful for category page).
 # Two kinds of card style: 'project-card', 'article-card',
 # Never mind the name.
 menu:
-  # Project:
-  #   path: /categories/Projects
-  #   card: project-card
-  # Stuffs:
-  #   path: /tags/Stuffs
-  #   card: article-card
+  # 项目 _config.yml root
+  root: /FE-Weekly
   Home: /
-  Archive: /archives
-  About: /about
+  Tag: /FE-Weekly/tags
+  About: /FE-Weekly/about
 
 # Specific default categories or tags of home page.
 # Post which belongs to `category` or `tag` and don't belongs to `except_category` or `except_tag` will be filtered.

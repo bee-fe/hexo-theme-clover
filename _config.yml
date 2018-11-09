@@ -23,7 +23,7 @@ copyright: All rights reserved @bee-fe
 menu:
   # 项目 _config.yml root
   root: /FE-Weekly
-  Home: /
+  Home: /FE-Weekly
   Tag: /FE-Weekly/tags
   About: /FE-Weekly/about
 
